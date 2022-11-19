@@ -3,6 +3,6 @@ import numpy as np #For Mathematic Usage
 import matplotlib.pyplot as plt # to visual datas
 
 
-# Add some values like X, Y
+# Add some  random values like X, Y
 x = np.random.rand(100, 1) 
-y =
+y = 4 + 5 * x + np.random.rand(100, 1)
