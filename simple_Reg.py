@@ -15,3 +15,5 @@ y_vals = reg.predict(x_vals)
 
 plt.scatter(x, y)
 plt.plot(x_vals, y_vals, color="r")
+plt.show()
+
