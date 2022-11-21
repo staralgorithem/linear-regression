@@ -11,3 +11,6 @@ reg = LinearRegression()
 reg.fit(x, y)
 
 x_vals = np.linspace(0, 1, 100).reshape(-1, 1)
+y_vals = reg.predict(x_vals)
+
+plt.scatter(x, y)
